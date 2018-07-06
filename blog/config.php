@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	// connect to database
-	$conn = mysqli_connect("localhost", "root", "Ep32895446@", "blog");
+	$conn = mysqli_connect("localhost", "root", " YOUR MYSQL ROOT PASSWORD HERE ", "blog");
 
 	if (!$conn) {
 		die("Error connecting to database: " . mysqli_connect_error());
