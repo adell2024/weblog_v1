@@ -14,7 +14,7 @@
 
 	<div style="width: 40%; margin: 20px auto;">
 		<form method="post" action="register.php" >
-			<h2>Register on Erik's Blog</h2>
+			<h2>Register on CVL's Blog</h2>
 			<?php include(ROOT_PATH . '/includes/errors.php') ?>
 			<input  type="text" name="username" value="<?php echo $username; ?>"  placeholder="Username">
 			<input type="email" name="email" value="<?php echo $email ?>" placeholder="Email">

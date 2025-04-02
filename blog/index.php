@@ -6,7 +6,7 @@
 <?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
-	<title>Erik's Blog | Home </title>
+	<title>CVL's Blog | Home </title>
 </head>
 <body>
 	<!-- container - wraps whole page -->
